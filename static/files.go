@@ -9,7 +9,7 @@
 // files/css/app.css
 // files/css/sections/downloads.css
 // files/css/sections/omni.css
-// files/css/sections/torrents.css
+// files/css/sections/x.css
 // files/css/semantic.min.css
 // files/css/themes/default/assets/fonts/icons.eot
 // files/css/themes/default/assets/fonts/icons.otf
@@ -24,7 +24,7 @@
 // files/js/omni-controller.js
 // files/js/run.js
 // files/js/semantic-checkbox.js
-// files/js/torrents-controller.js
+// files/js/x-controller.js
 // files/js/utils.js
 // files/js/vendor/angular.min.js
 // files/js/vendor/moment.min.js
@@ -286,7 +286,7 @@ var _filesCssSectionsTorrentsCss = []byte("\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\
 func filesCssSectionsTorrentsCssBytes() ([]byte, error) {
 	return bindataRead(
 		_filesCssSectionsTorrentsCss,
-		"files/css/sections/torrents.css",
+		"files/css/sections/x.css",
 	)
 }
 
@@ -296,7 +296,7 @@ func filesCssSectionsTorrentsCss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "files/css/sections/torrents.css", size: 1340, mode: os.FileMode(420), modTime: time.Unix(1498117139, 0)}
+	info := bindataFileInfo{name: "files/css/sections/x.css", size: 1340, mode: os.FileMode(420), modTime: time.Unix(1498117139, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -586,7 +586,7 @@ var _filesJsTorrentsControllerJs = []byte("\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\
 func filesJsTorrentsControllerJsBytes() ([]byte, error) {
 	return bindataRead(
 		_filesJsTorrentsControllerJs,
-		"files/js/torrents-controller.js",
+		"files/js/x-controller.js",
 	)
 }
 
@@ -596,7 +596,7 @@ func filesJsTorrentsControllerJs() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "files/js/torrents-controller.js", size: 434, mode: os.FileMode(420), modTime: time.Unix(1524844037, 0)}
+	info := bindataFileInfo{name: "files/js/x-controller.js", size: 434, mode: os.FileMode(420), modTime: time.Unix(1524844037, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -842,7 +842,7 @@ var _bindata = map[string]func() (*asset, error){
 	"files/css/app.css": filesCssAppCss,
 	"files/css/sections/downloads.css": filesCssSectionsDownloadsCss,
 	"files/css/sections/omni.css": filesCssSectionsOmniCss,
-	"files/css/sections/torrents.css": filesCssSectionsTorrentsCss,
+	"files/css/sections/x.css": filesCssSectionsTorrentsCss,
 	"files/css/semantic.min.css": filesCssSemanticMinCss,
 	"files/css/themes/default/assets/fonts/icons.eot": filesCssThemesDefaultAssetsFontsIconsEot,
 	"files/css/themes/default/assets/fonts/icons.otf": filesCssThemesDefaultAssetsFontsIconsOtf,
@@ -857,7 +857,7 @@ var _bindata = map[string]func() (*asset, error){
 	"files/js/omni-controller.js": filesJsOmniControllerJs,
 	"files/js/run.js": filesJsRunJs,
 	"files/js/semantic-checkbox.js": filesJsSemanticCheckboxJs,
-	"files/js/torrents-controller.js": filesJsTorrentsControllerJs,
+	"files/js/x-controller.js": filesJsTorrentsControllerJs,
 	"files/js/utils.js": filesJsUtilsJs,
 	"files/js/vendor/angular.min.js": filesJsVendorAngularMinJs,
 	"files/js/vendor/moment.min.js": filesJsVendorMomentMinJs,
@@ -923,7 +923,7 @@ var _bintree = &bintree{nil, map[string]*bintree{
 			"sections": &bintree{nil, map[string]*bintree{
 				"downloads.css": &bintree{filesCssSectionsDownloadsCss, map[string]*bintree{}},
 				"omni.css": &bintree{filesCssSectionsOmniCss, map[string]*bintree{}},
-				"torrents.css": &bintree{filesCssSectionsTorrentsCss, map[string]*bintree{}},
+				"x.css": &bintree{filesCssSectionsTorrentsCss, map[string]*bintree{}},
 			}},
 			"semantic.min.css": &bintree{filesCssSemanticMinCss, map[string]*bintree{}},
 			"themes": &bintree{nil, map[string]*bintree{
@@ -951,7 +951,7 @@ var _bintree = &bintree{nil, map[string]*bintree{
 			"omni-controller.js": &bintree{filesJsOmniControllerJs, map[string]*bintree{}},
 			"run.js": &bintree{filesJsRunJs, map[string]*bintree{}},
 			"semantic-checkbox.js": &bintree{filesJsSemanticCheckboxJs, map[string]*bintree{}},
-			"torrents-controller.js": &bintree{filesJsTorrentsControllerJs, map[string]*bintree{}},
+			"x-controller.js": &bintree{filesJsTorrentsControllerJs, map[string]*bintree{}},
 			"utils.js": &bintree{filesJsUtilsJs, map[string]*bintree{}},
 			"vendor": &bintree{nil, map[string]*bintree{
 				"angular.min.js": &bintree{filesJsVendorAngularMinJs, map[string]*bintree{}},
