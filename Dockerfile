@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM alpine:3.8
 LABEL maintainer="dev@jpillora.com"
 # prepare go env
 ENV GOPATH /go
