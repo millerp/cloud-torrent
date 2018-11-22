@@ -38,6 +38,7 @@ RUN set -ex \
 	&& mkdir -p $PACKAGE_DIR \
 	&& git clone https://$PACKAGE.git $PACKAGE_DIR \
 	&& cd $PACKAGE_DIR \
+	&& go get \
 	&& go build -ldflags "-X main.VERSION=$(git describe --abbrev=0 --tags)" -o /usr/local/bin/$NAME \
 	&& apk del .build-deps \
 	&& rm -rf /no-pic.patch $GOPATH /usr/local/go
